@@ -1,0 +1,153 @@
+ li{
+    list-style: none;
+}
+.slick-slider {
+    max-width: 1200px; /* Ширина слайдера */
+    margin: 0 auto; /* Центрирование слайдера */
+    position: relative;
+    margin-bottom: 80px;
+  }
+  
+  .slick-list {
+    overflow: hidden;
+  }
+  
+  .slick-track {
+    display: flex;
+    transition: transform 0.5s ease; /* Анимация смены слайдов */
+  }
+   
+  .slick-slide {
+    width: 100%;
+    height: 500px; /* Высота слайда */
+    position: relative;
+    flex-shrink: 0; /* Запрещаем сжатие изображения */
+  }
+  
+
+  .slick-slide img {
+    width: 100%;
+    height: 900px;
+    object-fit: cover; /* Подгонка изображения под размер */
+  }
+  
+  /* Стили для точек (dots) */
+  .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+  }
+  
+  .slick-dots li {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+  }
+  
+  .slick-dots li.slick-active {
+    background: #000;
+  }
+  
+  /* Дополнительные стили для кнопок next/prev */
+  .slick-prev,
+  .slick-next {
+    background: transparent; /* Убираем фон */
+    border: none; /* Убираем рамку */
+    cursor: pointer;
+    z-index: 10; /* Чтобы кнопки были поверх слайдов */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .slick-prev {
+    left: 20px; /* Положение кнопки "Назад" */
+  }
+  
+  .slick-next {
+    right: 20px; /* Положение кнопки "Вперед" */
+  }
+  
+  /* Стили для иконок стрелок */
+  .slick-prev svg,
+  .slick-next svg {
+    width: 24px;
+    height: 24px;
+  }
+
+
+
+
+
+
+  
+  .containerPresentation {
+   
+    margin: auto;
+    max-width: 1100px;
+    margin-bottom: 50px;
+    
+    height: auto;
+    background-color: rgb(172, 172, 172);
+  }
+  .flex{
+    display: flex;
+  }
+
+
+
+  .presentTitles{
+    margin: 40px;
+   
+  }
+
+  .presentTitles h4{
+    color:  rgba(119, 56, 68, 1);
+    margin-bottom: 10px;
+  }
+
+  .items li {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .presentForm{
+    margin-top: 100px;
+    border-top: 1px  solid rgb(158, 117, 117);
+    padding-top: 10px;
+  }
+
+  .presentForm input{
+        max-width: 250px;
+        height: 50px;
+        border-radius: 12px;
+        border: none;
+        background-color: rgb(245, 242, 237);
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 25px;
+  }
+
+  .presentForm button {
+    max-width: 240px;
+    padding: 5px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    background-color: rgba(119, 56, 68, 1);
+  }
+
+  .footerP{
+    margin-top: 10px;
+    color: #3d3d3d;
+  }

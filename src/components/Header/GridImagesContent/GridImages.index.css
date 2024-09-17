@@ -1,0 +1,21 @@
+.gridImagesContainer{
+    max-width: 1400px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.gridImages{
+    margin-top: 50px;
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-columns: minmax(0, 1fr); /* Добавьте эту строку */
+}
+
+.gridImages img {
+    max-width: 100%; 
+    height: auto; 
+}

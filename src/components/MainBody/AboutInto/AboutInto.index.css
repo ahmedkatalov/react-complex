@@ -1,0 +1,57 @@
+.containerAboutInto{
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+    
+}
+.containerAboutInto{
+    width: 100%;
+    height: auto; 
+}
+.aboutLobbyContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 245, 248);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.aboutLobbyText{
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+.aboutLobbyText p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.aboutLobbyText a{
+    margin-top: 30px;
+}
+
+.aboutLobbyImgContainer img {
+    max-width: 90%;
+}
+
+.aboutLobbyContainers{
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+   
+}
+
+.aboutLobbyContainers h1 {
+    margin-bottom: 20px;
+}
+
+
+.lobbyButton{
+    padding: 5px;
+    border: 0cap;
+    background-color: brown;
+    color: #fff;
+    border-radius: 5px;
+}
